@@ -10,7 +10,7 @@ describe('TC_1.1 Verify that the homepage loads successfully', () => {
     // Check if the navigation bar is visible
     cy.get('.navbar').should('be.visible');
 
-    // Check if the banner is visible
+    // Check if the footer is visible
     cy.get('.text-center').should('be.visible');
 
     // Check if the product list is visible

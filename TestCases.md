@@ -6,7 +6,7 @@
 
 -   **Steps:**
     1. Open the URL: [SweetShop](https://sweetshop.netlify.app/)
-    2. Check if all elements (logo, navigation bar, banner, product list) are visible.
+    2. Check if all elements (header, body, footer, product list) are visible.
 -   **Expected Result:** The homepage loads without errors, and all elements are displayed correctly.
 
 ## TS_2 Header (navigation bar)

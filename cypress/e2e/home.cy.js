@@ -1,4 +1,3 @@
-
 describe('TS_1 Homepage', () => {
   beforeEach(() => {
     cy.visit('https://sweetshop.netlify.app/');

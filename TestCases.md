@@ -289,19 +289,10 @@
     2. Login with empty email and password fields.
 -   **Expected Result:** Login is not successful, "Please enter a valid email address." and "Please enter a valid password." messages appears.
 
-## TS_6 Account page
 
-### TC_6.1. Positive login. Verify user info is displayed.
+## TS_6 Basket Page (Cart)
 
--   **Steps:**
-    1. Open the URL: [SweetShop/login](https://sweetshop.netlify.app/login)
-    2. Enter valid email and password and click 'Login' button.
-    3. Verify user info is displayed.
--   **Expected Result:** Login is successful and user info is displayed.
-
-## TS_7 Basket Page (Cart)
-
-### TC_7.1 Add products to basket and the basket count is updated.
+### TC_6.1 Add products to basket and the basket count is updated.
 
 -   **Steps:**
     1. Open the URL: [SweetShop/sweets](https://sweetshop.netlify.app/sweets)
@@ -309,7 +300,7 @@
     3. Verify products are added to basket and count is updated.
 -   **Expected Result:** Products are added to basket and count is updated.
 
-### TC_7.2 Add products to basket with delivery 'Collect(FREE)' (quantity, names, total).
+### TC_6.2 Add products to basket with delivery 'Collect(FREE)' (quantity, names, total).
 
 -   **Steps:**
     1. Open the URL: [SweetShop/sweets](https://sweetshop.netlify.app/sweets)
@@ -318,7 +309,7 @@
     4. Pick delivery option 'Collect(FREE)' and verify products are added and "Total" amount is correct.
 -   **Expected Result:** Products are added and "Total" amount is correct.
 
-### TC_7.3 Add products to basket with delivery 'Standard shipping (1.99)' (quantity, names, total).
+### TC_6.3 Add products to basket with delivery 'Standard shipping (1.99)' (quantity, names, total).
 
 -   **Steps:**
     1. Open the URL: [SweetShop/sweets](https://sweetshop.netlify.app/sweets)
@@ -327,14 +318,14 @@
     4. Pick delivery option 'Standard shipping (1.99)' and verify products are added and "Total" amount is correct.
 -   **Expected Result:** Products are added and "Total" amount is correct.
 
-### TC_7.4 Remove item from basket and verify the basket count is updated.
+### TC_6.4 Remove item from basket and verify the basket count is updated.
 
 -   **Steps:**
     1. Open the URL: [SweetShop/basket](https://sweetshop.netlify.app/basket)
     2. Remove item from basket and verify the basket count is updated.
 -   **Expected Result:** Item is removed and basket count is updated.
 
-### TC_7.5 Empty basket and verify the basket is empty.
+### TC_6.5 Empty basket and verify the basket is empty.
 
 -   **Steps:**
     1. Open the URL: [SweetShop/basket](https://sweetshop.netlify.app/basket)

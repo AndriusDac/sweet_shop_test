@@ -2,7 +2,7 @@
 describe('TS_2 Header', () => {
   describe('TS_2.1 Navigation menu from Home page', () => {
     beforeEach(() => {
-      cy.visit("https://sweetshop.netlify.app/");
+      cy.visitHomePage();
     });
 
     it('TC_2.1.1 Test open Sweets page', () => {
@@ -147,3 +147,4 @@ describe('TS_2 Header', () => {
     });
   });
 });
+

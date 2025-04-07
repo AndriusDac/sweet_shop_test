@@ -1,5 +1,8 @@
 
 describe('TS_2 Header', () => {
+
+  const baseUrl = 'https://sweetshop.netlify.app/';
+
   describe('TS_2.1 Navigation menu from Home page', () => {
     beforeEach(() => {
       cy.visitHomePage();
@@ -32,12 +35,12 @@ describe('TS_2 Header', () => {
 
   describe('TS_2.2 Navigation menu from Sweets page', () => {
     beforeEach(() => {
-      cy.visit("https://sweetshop.netlify.app/sweets");
+      cy.visitSweetsPage();
     });
 
     it('TC_2.2.1 Test open Home page', () => {
       cy.contains('nav a', 'Sweet Shop').click();
-      cy.url().should('eq', 'https://sweetshop.netlify.app/');
+      cy.url().should('eq', baseUrl);
     });
 
     it('TC_2.2.2 Test open About page', () => {
@@ -61,12 +64,12 @@ describe('TS_2 Header', () => {
 
   describe('TS_2.3 Navigation menu from About page', () => {
     beforeEach(() => {
-      cy.visit("https://sweetshop.netlify.app/about");
+      cy.visitAboutPage();
     });
 
     it('TC_2.3.1 Test open Home page', () => {
       cy.contains('nav a', 'Sweet Shop').click();
-      cy.url().should('eq', 'https://sweetshop.netlify.app/');
+      cy.url().should('eq', baseUrl);
     });
 
     it('TC_2.3.2 Test open Sweets page', () => {
@@ -90,12 +93,12 @@ describe('TS_2 Header', () => {
 
   describe('TS_2.4 Navigation menu from Login page', () => {
     beforeEach(() => {
-      cy.visit("https://sweetshop.netlify.app/login");
+      cy.visitLoginPage();
     });
 
     it('TC_2.4.1 Test open Home page', () => {
       cy.contains('nav a', 'Sweet Shop').click();
-      cy.url().should('eq', 'https://sweetshop.netlify.app/');
+      cy.url().should('eq', baseUrl);
     });
 
     it('TC_2.4.2 Test open Sweets page', () => {
@@ -119,12 +122,12 @@ describe('TS_2 Header', () => {
 
   describe('TS_2.5 Navigation menu from Basket page', () => {
     beforeEach(() => {
-      cy.visit("https://sweetshop.netlify.app/basket");
+      cy.visitBasketPage();
     });
 
     it('TC_2.5.1 Test open Home page', () => {
       cy.contains('nav a', 'Sweet Shop').click();
-      cy.url().should('eq', 'https://sweetshop.netlify.app/');
+      cy.url().should('eq', baseUrl);
       cy.get('.navbar-brand').should('contain', 'Sweet Shop');
     });
 

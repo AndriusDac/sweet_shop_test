@@ -1,10 +1,10 @@
 describe('TS_1 Homepage', () => {
 
+  const cardsList = '.col-lg-3.col-md-6.mb-4.cards';
+
   beforeEach(() => {
     cy.visitHomePage();
   });
-
-  const cardsList = '.col-lg-3.col-md-6.mb-4.cards'
 
   it('TC_1.1 Verify that the homepage loads successfully', () => {
 

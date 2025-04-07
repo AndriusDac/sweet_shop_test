@@ -47,6 +47,16 @@ his repository contains automated functional tests that validate:
 ```
 ## Install dependencies:
 
-```powershell
+```bash
 npm install
 ```
+## Run tests:
+### Run Cypress in UI Mode
+```
+npm run cy:open
+```
+### Run Cypress in CLI Mode
+```
+npm run cy:run
+```
+---

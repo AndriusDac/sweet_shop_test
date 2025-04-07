@@ -57,7 +57,6 @@ describe('TS_5 Login Page', () => {
         cy.get('input[type="password"]').type(validPassword);
         cy.get('button[type="submit"]').click();
 
-        // Verify successful login
         cy.url().should('include', '/00efc23d-b605-4f31-b97b-6bb276de447e.html');
         cy.contains('h1', 'Your Account').should('be.visible');
     });

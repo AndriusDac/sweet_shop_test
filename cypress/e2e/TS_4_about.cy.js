@@ -1,15 +1,16 @@
 describe('TS_4 About Page', () => {
     beforeEach(() => {
-        cy.visit('https://sweetshop.netlify.app/about');
+        cy.visitAboutPage();
     });
 
     it('TC_4.1 Verify the page has the title "Sweet Shop Project"', () => {
-        cy.get('h1').should('contain', 'Sweet Shop Project');
+        cy.get('h1')
+            .should('contain', 'Sweet Shop Project');
 
     });
 
     it('TC_4.2 Verify the page has a description', () => {
-        cy.get('.about-description, .description, p')
+        cy.get('p')
             .should('exist')
             .and('be.visible')
             .and('not.be.empty');

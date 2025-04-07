@@ -42,6 +42,5 @@ describe('TS_3 Sweets Page', () => {
             });
         });
     });
-
 });
 

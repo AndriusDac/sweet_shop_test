@@ -1,10 +1,11 @@
 describe('TS_5 Login Page', () => {
+
     const validEmail = 'test@example.com';
     const validPassword = 'password123';
     const invalidEmail = 'invalid-email';
 
     beforeEach(() => {
-        cy.visit('https://sweetshop.netlify.app/login');
+        cy.visitLoginPage();
     });
 
     it('TC_5.1 Verify the page title is "Login"', () => {

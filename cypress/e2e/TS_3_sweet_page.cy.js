@@ -1,6 +1,7 @@
 describe('TS_3 Sweets Page', () => {
 
     const cards = '.col-lg-3.col-md-6.mb-4';
+    const addToBasketButton = '.btn.btn-success.btn-block.addItem';
 
     beforeEach(() => {
         cy.visitSweetsPage();
@@ -38,7 +39,7 @@ describe('TS_3 Sweets Page', () => {
                     .and('have.attr', 'src')
                     .and('not.be.empty');
 
-                cy.contains('.btn.btn-success.btn-block.addItem', 'Add to Basket').should('exist').and('be.visible');
+                cy.contains(addToBasketButton, 'Add to Basket').should('exist').and('be.visible');
             });
         });
     });

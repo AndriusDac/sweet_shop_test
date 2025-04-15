@@ -1,13 +1,23 @@
 # 🍭 SweetShop
 
-Welcome to **SweetShop** – a simple online candy store with end-to-end tests powered by Cypress.  
+Welcome to **SweetShop** – a simple online candy store with end-to-end automated tests by Cypress.  
 Functional testing suite for [SweetShop](https://sweetshop.netlify.app/) using [Cypress](https://www.cypress.io/).  
-This project ensures that core functionality and user flows of the Sweet Shop website work as expected.
+
+These features are thoroughly tested using:
+
+- 6 Test Scenarios (TS)
+- 46 Test Cases (TC)
+
+All TSs and TCs are described in the [**TestCases.md**](/TestCases.md) file.
+
+The project also incorporates a robust CI/CD pipeline using GitHub Actions.
+
+
 
 
 ## 🧠 Project Overview
 
-his repository contains automated functional tests that validate:
+This repository contains automated functional tests that validate:
 
 - Page navigation
 - Product visibility and availability
@@ -45,12 +55,19 @@ his repository contains automated functional tests that validate:
 ├── 📄 TestCases.md
 
 ```
+
+## Clone the repository:
+
+```bash
+git clone https://github.com/AndriusDac/sweet_shop_test.git
+
+```
 ## Install dependencies:
 
 ```bash
 npm install
 ```
-## Run tests:
+## Run Cypress tests:
 ### Run Cypress in UI Mode
 ```
 npm run cy:open
@@ -59,4 +76,12 @@ npm run cy:open
 ```
 npm run cy:run
 ```
----
+
+## 📝 License
+
+ISC 
+
+### 👩‍💻 Author
+
+[Andrius Dačkauskis](https://github.com/AndriusDac)
+

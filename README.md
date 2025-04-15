@@ -13,8 +13,6 @@ All TSs and TCs are described in the [**TestCases.md**](/TestCases.md) file.
 The project also incorporates a robust CI/CD pipeline using GitHub Actions.
 
 
-
-
 ## 🧠 Project Overview
 
 This repository contains automated functional tests that validate:

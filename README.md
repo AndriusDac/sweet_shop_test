@@ -58,24 +58,23 @@ This repository contains automated functional tests that validate:
 
 ```bash
 git clone https://github.com/AndriusDac/sweet_shop_test.git
-
 ```
-## Install dependencies:
+#### Install dependencies:
 
 ```bash
 npm install
 ```
-## Run Cypress tests:
-### Run Cypress in UI Mode
+
+#### Run Cypress in UI Mode
 ```
 npm run cy:open
 ```
-### Run Cypress in CLI Mode
+#### Run Cypress in CLI Mode
 ```
 npm run cy:run
 ```
 
-## 📝 License
+### 📝 License
 
 ISC 
 

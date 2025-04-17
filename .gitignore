@@ -1,5 +1,6 @@
 #Cypress
 cypress/screenshots/
+cypress/downloads/
 
 # Logs
 logs
